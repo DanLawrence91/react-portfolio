@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaMobile } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <Flex p={10} align="center" justify={"space-between"}>
+    <Flex w="100vw" align="center" justify="space-around" wrap="wrap" mb={8} p={8}>
       <Link href="https://github.com/DanLawrence91" isExternal>
         <IconButton ml={2} icon={<FaGithub />} isRound="true"></IconButton>
       </Link>
@@ -15,12 +15,12 @@ export default function Footer() {
         <IconButton ml={2} icon={<FaTwitter />} isRound="true"></IconButton>
       </Link>
       <Text>
-        <Icon as={FaMobile}></Icon> Mobile - +61 (0) 450482186
+        <Icon as={FaMobile}></Icon>+61 (0) 450482186
       </Text>
       <Link href="mailto:dan.lawrence0810@gmail.com" isExternal>
         dan.lawrence0810@gmail.com
       </Link>
-      {/* Need to add email and mobile */}
+      {/* Flex column after 825px width in center */}
     </Flex>
   );
 }
