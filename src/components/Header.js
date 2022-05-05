@@ -1,12 +1,12 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const MenuItems = (props) => {
-  const { children, to = "/" } = props;
+  const { children, to } = props;
   return (
     <Text p={5}>
-      <Link to={to}>{children}</Link>
+      <NavLink to={to}>{children}</NavLink>
     </Text>
   );
 };

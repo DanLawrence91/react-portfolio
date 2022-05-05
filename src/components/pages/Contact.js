@@ -6,7 +6,7 @@ function Contact() {
 
   return (
     <Flex width="full" align="center" justifyContent={"center"}>
-      <Box p="2">
+      <Box p="2" w={"50%"}>
         <Box textAlign={"center"}>
           <Heading>Contact Me</Heading>
         </Box>
