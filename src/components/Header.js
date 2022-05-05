@@ -1,7 +1,6 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaHamburger } from "react-icons/fa";
 
 const MenuItems = (props) => {
   const { children, to = "/" } = props;
@@ -12,9 +11,9 @@ const MenuItems = (props) => {
   );
 };
 
-export default function Header() {
+function Header() {
   return (
-    <Flex as="nav" w="100%" align="center" justify="space-between" wrap="wrap" mb={8} p={8} color="black" backgroundColor={"yellow"}>
+    <Flex as="nav" w="100vw" align="center" justify="space-between" wrap="wrap" mb={8} p={8} color="black" bg="yellow.100">
       <Flex align="center">
         <Heading ml={8} size="md" fontSize="6xl" fontWeight="bold" color="cyan.400">
           Daniel Lawrence
@@ -29,3 +28,5 @@ export default function Header() {
     </Flex>
   );
 }
+
+export default Header;
