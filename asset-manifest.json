@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/react-portfolio/static/js/main.1197570b.js",
+    "static/media/danLawrenceResume.pdf": "/react-portfolio/static/media/danLawrenceResume.0fb88926b6dbf3675d49.pdf",
+    "static/media/pp.jpg": "/react-portfolio/static/media/pp.b56eef3950ae758f5586.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.1197570b.js.map": "/react-portfolio/static/js/main.1197570b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1197570b.js"
+  ]
+}
