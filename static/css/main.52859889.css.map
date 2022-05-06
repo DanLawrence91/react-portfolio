@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.52859889.css","mappings":"AAAA,UAEE,UAAY,CADZ,eAEF,CACA,QAEE,UAAW,CADX,eAEF","sources":["components/styles/nav.css"],"sourcesContent":[".inactive {\n  font-weight: normal;\n  color: black;\n}\n.active {\n  font-weight: bold;\n  color: blue;\n}\n"],"names":[],"sourceRoot":""}
