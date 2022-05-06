@@ -15,7 +15,7 @@ const PortfolioItems = (props) => {
         {title}
       </Heading>
       <Image src={image}></Image>
-      <Text mt={2} p={5}>
+      <Text mt={2} p={5} fontWeight={"bold"}>
         {desc}
       </Text>
       {/* need 2 links */}
