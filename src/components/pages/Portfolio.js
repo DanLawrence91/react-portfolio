@@ -32,7 +32,7 @@ const PortfolioItems = (props) => {
 function Portfolio() {
   return (
     <div>
-      <Flex p={5} wrap={"wrap"} justifyContent={"space-around"}>
+      <Flex p={5} wrap={"wrap"} justifyContent={"space-around"} bgGradient="linear(to-b, yellow.100, blue.700)">
         <PortfolioItems
           title="Sport Travel Guider"
           desc="This project combined both front and back end skills to create a website that allows tourists to search for locations and teams from within the English Premier League and decide where they would like to visit. Users can log in and leave a review as well as read past reviews. I focused initally on the back end work creating our API, however towards the end became the lead on design as well."

@@ -33,13 +33,13 @@ function Header() {
   };
 
   return (
-    <Flex as="nav" w="100vw" align="center" justify="space-between" wrap="wrap" mb={8} p={8} color="black" bg="yellow.100">
+    <Flex as="nav" direction={{ base: "column", lg: "row" }} w="100vw" align="center" justify="space-between" wrap="wrap" p={8} color="blue.700" bg="yellow.100">
       <Flex align="center">
-        <Heading ml={8} size="md" fontSize="6xl" fontWeight="bold" color="cyan.400">
+        <Heading ml={8} size="md" fontSize="6xl" fontWeight="bold" color="blue.700">
           Daniel Lawrence
         </Heading>
       </Flex>
-      <Flex align="center">
+      <Flex align="center" direction={{ base: "column", md: "row" }}>
         <MenuItems className={getClassName()} to="/react-portfolio">
           About Me
         </MenuItems>
